@@ -1,0 +1,39 @@
+html{
+    font-size: 10px;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #011C26;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+.tituloSessoes {
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.introducao, .contatos {
+    background-image: url('../img/bg-introducao-universe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

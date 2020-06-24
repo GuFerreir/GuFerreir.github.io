@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="icon" href="./assets/img/favicon-16x16.png" />
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Gustavo F. Silva</title>
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+
+        <link href="./assets/css/header.css" rel="stylesheet" />
+        <link href="./assets/css/introducao.css" rel="stylesheet" />
+        <link href="./assets/css/sobre.css" rel="stylesheet" />
+        <link href="./assets/css/projetos.css" rel="stylesheet" />
+        <link href="./assets/css/contatos.css" rel="stylesheet" />        
+
+    </head>
+    
+    
+    <body>
+        
+        <header class="cabecalho">
+
+            <div class="container">
+
+                <button class="menu-abrir">Abre Menu</button>
+
+                <nav class="header__menuNavegacao">
+
+                    <button class="menu-fechar">Fecha Menu</button>
+
+                    <ul class="menuNavegacao__menuPrincipal">
+
+                        <li class="menuNavegacao__botao"><a onclick="go('#home')">Home</a></li>
+                        <li class="menuNavegacao__botao"><a onclick="go('#sobre')">Sobre</a></li>
+                        <li class="menuNavegacao__botao"><a href="projetos.html">Projetos</a></li>
+                        <li class="menuNavegacao__botao"><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="home" class="introducao">
+
+            <img src="./assets/img/foto-eu.jpg" class="introducao__avatar" alt>
+
+            
+            <div class="introducao__box">                
+                <p class="box__nome">Gustavo F. Silva</p>
+                <p class="box__descricao">- Web Developer -</p>
+            </div>
+        </section>
+    
+        <section id="sobre" class="sobre">
+
+            <h2 class="tituloSessoes sobre__titulo">Sobre</h2>
+
+            <div class="sobre__container">
+
+                <div class="sobre__containerAvatar">
+                    <img src="./assets/img/business-avatar.svg" class="sobre__avatar" alt>
+                </div>
+    
+                <div class="sobre__containerTexto">
+                    <p class="sobre__texto">Olá! Me chamo Gustavo, sou um desenvolvedor júnior buscando uma oportunidade para iniciar a carreira profissional como programador.</p>
+    
+                    <p class="sobre__texto">Estudo Sistemas de Informação - USP, mas minha paixão por esse mundo começou muito antes da faculdade, pois desde os meus 14 anos eu já brincava com códigos em HTML, CSS e animações em Java</p>
+    
+                    <p class="sobre__texto">Em 2020 quando entramos em quarentena eu decidi focar minhas energias em cursos online, foi quando “me encontrei” no desenvolvimento web e comecei a focar no estudo de técnologias como HTML, CSS, Javascript, NodeJs, Bootstrap, AJAX, SASS, GULP e GRUNT.</p>
+    
+                    <p class="sobre__texto">Sou uma pessoa que sempre busca conhecimento e tem facilidade no aprendizado, alem disso sou comunicativo e consigo desenvolver bem projetos tanto individualmente quanto em grupo.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <script src="./assets/js/menu.js"></script>
+    </body>
+</html>
