@@ -61,7 +61,7 @@
 
         position: fixed;
         z-index: 1;
-        top: -100%;
+        top: calc(2 * 100vh);
         left: 0;
 
 
