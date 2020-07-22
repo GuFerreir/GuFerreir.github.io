@@ -18,7 +18,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .cabecalho__nome {
@@ -45,7 +45,7 @@
     background-image: url('../img/gu-avatar.svg');
     background-size: 99%;
     background-repeat: no-repeat;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .cabecalho__avatar:hover, .cabecalho__avatar:focus{
@@ -56,6 +56,10 @@
     .cabecalho__container {
         width: 900px;
         margin: 0 auto;
+    }
+
+    .cabecalho__topo {
+        margin-bottom: 6rem;
     }
 
     .cabecalho__titulo {
