@@ -1,0 +1,31 @@
+.rodape {
+    width: 100%;
+    background-color: #0378A6;
+    padding: 6rem 0 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape__foguete {
+    margin-bottom: 3rem;
+}
+
+.rodape__texto {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.rodape__icones {
+    width: 275px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape__icones_item {
+    width: 60px;
+    height: 60px;
+}

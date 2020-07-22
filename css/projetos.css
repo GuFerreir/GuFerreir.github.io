@@ -1,0 +1,80 @@
+.projetos {
+    padding: 3rem 2rem 3rem 2rem;
+    min-height: 100vh;
+}
+
+.projetos__pai__itens {
+    display: flex;
+    flex-direction: column;       
+}
+
+.projetos__texto {
+    margin-bottom: 4rem;
+}
+
+
+.projetos__item {
+    width: 100%;
+    background-color: #141C3A;
+    background-image: url('../img/projeto-game.png');
+    border-radius: 1.5rem;
+    background-size: cover;
+    padding: 4rem 4rem 4rem 4rem;
+    margin-bottom: 2rem;
+}
+
+.projetos__item:nth-child(2){
+    background-image: url('../img/projeto-frontend.png');
+}
+
+.projetos__item:last-child{
+    margin-bottom: none;
+    background-image: url('../img/projeto-backend.png');
+}
+
+.projetos__item__titulo {
+    font-weight: 500;
+}
+
+.projetos__item__titulo, .projetos__item__texto {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.projetos__item__link:link {
+    text-decoration: none;
+}
+
+.projetos__item__botao__titulo, .projetos__item__titulo, .projetos__item__texto {
+    color: #ffffff;
+    line-height: 2.2rem;
+}
+
+.projetos__item__botao {
+    width: 125px;
+    margin: 0 auto;
+    border: 2px solid #0378A6;
+    border-radius: 2rem;
+    background-color: rgba(3, 120, 166, .2);
+    padding: .5rem .5rem .5rem .5rem;
+}
+
+@media (min-width: 1000px) {
+    .projetos__container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .projetos__pai__itens {
+        flex-direction: row;
+    }
+
+    .projetos__item {
+        width: 32%;
+        margin-right: 2%;
+    }
+
+    .projetos__item:last-child {
+        margin-right: 0;
+    }
+}

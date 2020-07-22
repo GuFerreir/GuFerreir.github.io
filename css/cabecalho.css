@@ -1,0 +1,65 @@
+.cabecalho {
+    width: 100%;
+    padding: 3rem 2rem 3rem 2rem;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.cabecalho__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cabecalho__topo {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.cabecalho__nome {
+    font-size: 3.2rem;
+    color: #0378A6;
+    font-weight: 700;
+}
+
+.cabecalho__titulo {
+    margin-bottom: 2.5rem;
+}
+
+.cabecalho__frase {
+    font-size: 2rem;
+    color: rgba(20, 28, 58, .8);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.cabecalho__avatar{
+    width: 177px;
+    height: 203px;
+    background-image: url('../img/gu-avatar.svg');
+    background-size: 99%;
+    background-repeat: no-repeat;
+    margin-bottom: 2.5rem;
+}
+
+.cabecalho__avatar:hover, .cabecalho__avatar:focus{
+    background-image: url('../img/gu-batman.svg');
+}
+
+@media (min-width: 1000px) {
+    .cabecalho__container {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .cabecalho__titulo {
+        font-size: 3.5rem;
+        font-weight: 500;
+    }
+}
